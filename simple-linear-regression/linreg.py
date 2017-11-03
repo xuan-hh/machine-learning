@@ -23,7 +23,7 @@ def run():
 	m = 0
 	alpha = 0.0001 # alpha is the learning rate
 	ErrorThreshold  = 0.003
-	NumberOfIterations = 3 # We cancel the gradient descent after a number of iterations, if it still doesn't reach the threshold we want.
+	NumberOfIterations = 1000 # We cancel the gradient descent after a number of iterations, if it still doesn't reach the threshold we want.
 	
 	sum_m = 0
 	sum_b = 0
